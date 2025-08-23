@@ -33,7 +33,7 @@
     display: flex;
     justify-content: flex-end;
 }
-.mobile-header-mid>.login-btn>button 
+.mobile-header-mid>.login-btn>.mobile-login-btn
 {
     border: 1px solid grey;
     border-radius: 20px;
