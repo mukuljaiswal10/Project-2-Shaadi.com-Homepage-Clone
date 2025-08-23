@@ -1,0 +1,89 @@
+@media only screen and (max-width:480.5px)
+{
+    .desktop-header 
+    {
+        display: none;
+    }
+    .mobile-header
+    {
+        display: block;
+        padding: 12px 20px;
+    }
+    .mobile-header-mid>figure>img 
+    {
+        width: 120px;
+        height: 45px;
+    }
+    .mobile-header-mid>.login-btn>button
+    {
+        font-weight:500;
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:767.5px)
+{
+    .desktop-header 
+    {
+        display: none;
+    }
+    .mobile-header
+    {
+        display: block;
+        padding: 12px 40px;
+    }
+    .mobile-header-mid>figure>img 
+    {
+        width: 130px;
+        height: 55px;
+    }
+    .mobile-header-mid>.login-btn>button
+    {
+        font-weight:500;
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991.5px)
+{
+    header
+    {
+        padding:17px 50px;
+    }
+    header .logo
+    {
+        padding-left: 0px;
+    }
+    header nav ul 
+    {
+        padding-left: 0px;
+        justify-content: flex-end;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199.5px)
+{
+    header
+    {
+        padding:17px 50px;
+    }
+    header .logo
+    {
+        padding-left: 0px;
+    }
+    header nav ul 
+    {
+        padding-left: 0px;
+        justify-content: flex-end;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1399.5px)
+{
+    header
+    {
+        padding:17px 50px;
+    }
+    header .logo
+    {
+        padding-left: 112px;
+    }
+}
+@media only screen and (min-width:1400px) 
+{}

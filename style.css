@@ -7,8 +7,45 @@
     text-decoration: none;
     list-style: none;
 }
+/* mobile-header */
+.mobile-header 
+{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    display: none;
+} 
+.mobile-header-mid 
+{
+    max-width: 1020px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-header-mid>figure
+{
+    flex-basis: 50%;
+}
+.mobile-header-mid>.login-btn
+{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile-header-mid>.login-btn>button 
+{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 5px 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+}
+/* end */
 /* header-style */
-header 
+header
 {
     box-shadow: 0px 2px 10px 2px #ccc;
     background-color: white;
