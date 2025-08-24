@@ -20,6 +20,55 @@
         font-size: 17px;
         color: black;
     }
+    .banner-content .banner-bottom 
+    {
+        margin-top: 10px;
+    }
+    .banner-content .banner-heading h1 
+    {
+        font-size: 29px;
+        text-align: center;
+    }
+    .banner-content
+    {
+        gap: 12px;
+    }
+    .banner-footer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-footer 
+    {
+        display: none;
+    }
+    .banner-footer-mobile
+    {
+        width: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.689);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.522);
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    .marketing-service>h3 
+    {
+        font-size:14px;
+    }
+    .rating>h3 
+    {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    .sucess-stories>h3 
+    {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -42,6 +91,55 @@
         font-weight:500;
         font-size: 17px;
     }
+    .banner-content .banner-bottom 
+    {
+        margin-top: 10px;
+    }
+    .banner-content .banner-heading h1 
+    {
+        font-size: 29px;
+        text-align: center;
+    }
+    .banner-content
+    {
+        gap: 12px;
+    }
+    .banner-footer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-footer 
+    {
+        display: none;
+    }
+    .banner-footer-mobile
+    {
+        width: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.689);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.814);
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+    .marketing-service>h3 
+    {
+        font-size:14px;
+    }
+    .rating>h3 
+    {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    .sucess-stories>h3 
+    {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -57,6 +155,39 @@
     {
         padding-left: 0px;
         justify-content: flex-end;
+    }
+    .banner-footer 
+    {
+        display: none;
+    }
+    .banner-footer-mobile
+    {
+        width: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.689);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.814);
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+    .marketing-service>h3 
+    {
+        font-size:14px;
+        margin: 0px 5px;
+    }
+    .rating>h3 
+    {
+        font-size: 14px;
+        padding: 0px 5px;
+        margin: 0px 5px;
+    }
+    .sucess-stories>h3 
+    {
+        font-size: 14px;
+        margin: 0px 5px;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)

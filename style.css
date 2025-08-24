@@ -148,6 +148,10 @@ header nav ul .login a
     background-color: #03cce7;
     cursor: pointer;
 }
+.banner-footer-mobile
+{
+    display: none;
+}
 .banner-footer 
 {
     width: 100%;
