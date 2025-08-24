@@ -11,7 +11,7 @@
         z-index: 9999;
         background-color: white;
         display: block;
-        padding: 12px 20px;
+        padding: 5px 20px;
     }
     .mobile-header-mid>figure>img 
     {
@@ -73,6 +73,45 @@
     {
         font-size: 14px;
     }
+    .exp-middle 
+    {
+        padding: 0px 20px;
+    }
+    .exp-heading h2
+    {
+        font-size:28px;
+        text-align: center;
+    }
+    .exp-list
+    {
+        flex-direction: column;
+    }
+    .same 
+    {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .exp-list-para
+    {
+        text-align: justify;
+    }
+    .exp-banner 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top:0px;
+    }
+    .banner-content
+    {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .exp-banner button 
+    {
+        margin: auto;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -87,7 +126,7 @@
         z-index: 9999;
         background-color: white;
         display: block;
-        padding: 12px 40px;
+        padding: 0px 40px;
     }
     .mobile-header-mid>figure>img 
     {
@@ -148,12 +187,51 @@
     {
         font-size: 14px;
     }
+    .exp-middle 
+    {
+        padding: 0px 20px;
+    }
+    .exp-heading h2
+    {
+        font-size:28px;
+        text-align: center;
+    }
+    .exp-list
+    {
+        flex-direction: column;
+    }
+    .same 
+    {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .exp-list-para
+    {
+        text-align: justify;
+    }
+    .exp-banner 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top:0px;
+    }
+    .banner-content
+    {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .exp-banner button 
+    {
+        margin: auto;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
     header
     {
-        padding:17px 50px;
+        padding:10px 50px;
     }
     header .logo
     {
@@ -197,12 +275,16 @@
         font-size: 14px;
         margin: 0px 5px;
     }
+    .exp-middle 
+    {
+        padding: 0px 20px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
     header
     {
-        padding:17px 50px;
+        padding:10px 50px;
     }
     header .logo
     {
@@ -212,6 +294,10 @@
     {
         padding-left: 0px;
         justify-content: flex-end;
+    }
+    .exp-middle 
+    {
+        padding: 0px 20px;
     }
 }
 @media only screen and (min-width:1200px) and (max-width:1399.5px)
