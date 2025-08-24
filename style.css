@@ -559,7 +559,7 @@ header nav ul .login a
 }
 .footer-5 
 {
-    flex-basis: 25% !important;
+    flex-basis: 25%;
 }
 .footer-social
 {
@@ -593,6 +593,7 @@ header nav ul .login a
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0px;
 }
 .footer-last-mid p 
