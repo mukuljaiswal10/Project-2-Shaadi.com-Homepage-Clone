@@ -151,6 +151,10 @@ header nav ul .login a
 .banner-footer-mobile
 {
     display: none;
+    width: 100%;
+    padding:14px 0px;
+    background-color: rgba(0, 0, 0, 0.689);
+    margin-top: 42px;
 }
 .banner-footer 
 {
