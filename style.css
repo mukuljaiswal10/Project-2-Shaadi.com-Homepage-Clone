@@ -12,6 +12,8 @@
 {
     width: 100%;
     box-shadow: 0px 0px 10px 2px #ccc;
+    background-color: white;
+    background-attachment: fixed;
     display: none;
 } 
 .mobile-header-mid 
@@ -158,6 +160,100 @@ header nav ul .login a
     margin-top: 42px;
 }
 .banner-footer 
+{
+    width: 100%;
+    padding:14px 0px;
+    background-color: rgba(0, 0, 0, 0.689);
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+.marketing-service h3 
+{
+    color: white;
+    font-size: 16px;
+}
+.rating 
+{
+    display: flex;
+    align-items: center;
+}
+.rating h3 
+{
+    color: white;
+    font-size: 16px;
+}
+.sucess-stories h3 
+{
+    color: white;
+    font-size: 16px;
+}
+/* end */
+
+/* mobile-banner */
+.banner-mobile 
+{
+    background: url(images/mobile-banner.jpg) no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items:center;
+    display:none;
+}
+.banner-mobile-content 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner-mobile-content .banner-mobile-heading h1 
+{
+    font-size: 59px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-mobile-content .banner-mobile-para p 
+{
+    color: white;
+    text-align: center;
+    font-size: 19.2px;
+}
+.banner-mobile-content .banner-mobile-bottom 
+{
+    text-align: center;
+}
+.banner-mobile-content .banner-mobile-bottom .btn 
+{
+    padding: 14.3px 26.4px;
+    background-color: #0aa4b8;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 19.8px;
+    border-radius: 112px;
+    transition: 0.3s;
+}
+.banner-mobile-content .banner-mobile-bottom .btn:hover 
+{
+    background-color: #03cce7;
+    cursor: pointer;
+}
+.banner-mobile-footer-mobile
+{
+    display: none;
+    width: 100%;
+    padding:14px 0px;
+    background-color: rgba(0, 0, 0, 0.689);
+    margin-top: 42px;
+}
+.banner-mobile-footer 
 {
     width: 100%;
     padding:14px 0px;

@@ -24,29 +24,37 @@
         font-size: 17px;
         color: black;
     }
-    .banner-content .banner-bottom 
+    .banner
+    {
+        display: none;
+    }
+    .banner-mobile
+    {
+        display: flex;
+    }
+    .banner-mobile-content .banner-mobile-bottom 
     {
         margin-top: 10px;
     }
-    .banner-content .banner-heading h1 
+    .banner-mobile-content .banner-mobile-heading h1 
     {
         font-size: 29px;
         text-align: center;
     }
-    .banner-content
+    .banner-mobile-content
     {
         gap: 12px;
     }
-    .banner-footer
+    .banner-mobile-footer
     {
         flex-direction: column;
         align-items: center;
     }
-    .banner-footer 
+    .banner-mobile-footer 
     {
         display: none;
     }
-    .banner-footer-mobile
+    .banner-mobile-footer-mobile
     {
         width: 100%;
         display: block;
@@ -268,41 +276,49 @@
         font-weight:500;
         font-size: 17px;
     }
-    .banner-content .banner-bottom 
+    .banner
+    {
+        display: none;
+    }
+    .banner-mobile
+    {
+        display: flex;
+    }
+    .banner-mobile-content .banner-mobile-bottom 
     {
         margin-top: 10px;
     }
-    .banner-content .banner-heading h1 
+    .banner-mobile-content .banner-mobile-heading h1 
     {
         font-size: 29px;
         text-align: center;
     }
-    .banner-content
+    .banner-mobile-content
     {
         gap: 12px;
     }
-    .banner-footer
+    .banner-mobile-footer
     {
         flex-direction: column;
         align-items: center;
     }
-    .banner-footer 
+    .banner-mobile-footer 
     {
         display: none;
     }
-    .banner-footer-mobile
+    .banner-mobile-footer-mobile
     {
         width: 100%;
         display: block;
         background-color: rgba(0, 0, 0, 0.689);
-        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.814);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.522);
         margin-top:30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
     .marketing-service>h3 
     {
