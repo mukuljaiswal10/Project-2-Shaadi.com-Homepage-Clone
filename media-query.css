@@ -187,6 +187,23 @@
         font-size: 16px;
         text-align: justify;
     }
+    .explore 
+    {
+        padding: 0px 20px;
+    }
+    .explore-menu 
+    {
+        flex-direction: column;
+    }
+    .explore-menu h3
+    {
+        padding:10px 0px;
+    }
+    .explore-list span 
+    {
+        flex-basis:45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -376,6 +393,23 @@
         font-size: 16px;
         text-align: justify;
     }
+    .explore 
+    {
+        padding: 0px 20px;
+    }
+    .explore-menu 
+    {
+        flex-direction: column;
+    }
+    .explore-menu h3
+    {
+        padding:10px 0px;
+    }
+    .explore-list span 
+    {
+        flex-basis:45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -488,6 +522,14 @@
         font-size: 18px;
         text-align: justify;
     }
+    .explore 
+    {
+        padding: 0px 20px;
+    }
+    .explore-list span
+    {
+        padding: 0px 5px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -529,6 +571,10 @@
         padding: 0px 20px;
     }
     .faq-middle
+    {
+        padding: 0px 20px;
+    }
+    .explore 
     {
         padding: 0px 20px;
     }
