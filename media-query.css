@@ -153,6 +153,40 @@
         flex-direction: column;
         gap: 20px;
     }
+    .real-stories
+    {
+        padding:40px 0px;
+    }
+    .faq 
+    {
+        padding: 0px;
+    }
+    .faq-middle
+    {
+        padding: 0px 20px;
+    }
+    .faq-middle h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .faq-ques-ans
+    {
+        margin: 40px 0px;
+    }
+    .faq-ques-ans .ques
+    {
+        gap: 50px;
+    }
+    .faq-ques-ans .ques h3 
+    {
+        font-size:18px;
+    }
+    .faq-ques-ans .ans
+    {
+        font-size: 16px;
+        text-align: justify;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -308,6 +342,40 @@
         flex-direction: column;
         gap: 20px;
     }
+    .real-stories
+    {
+        padding:40px 0px;
+    }
+    .faq 
+    {
+        padding: 0px;
+    }
+    .faq-middle
+    {
+        padding: 0px 20px;
+    }
+    .faq-middle h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .faq-ques-ans
+    {
+        margin: 40px 0px;
+    }
+    .faq-ques-ans .ques
+    {
+        gap: 50px;
+    }
+    .faq-ques-ans .ques h3 
+    {
+        font-size:18px;
+    }
+    .faq-ques-ans .ans
+    {
+        font-size: 16px;
+        text-align: justify;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -386,6 +454,40 @@
     {
         font-size: 16px;
     }
+    .real-stories
+    {
+        padding:40px 0px;
+    }
+    .faq 
+    {
+        padding: 0px;
+    }
+    .faq-middle
+    {
+        padding: 0px 20px;
+    }
+    .faq-middle h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .faq-ques-ans
+    {
+        margin: 40px 0px;
+    }
+    .faq-ques-ans .ques
+    {
+        gap: 50px;
+    }
+    .faq-ques-ans .ques h3 
+    {
+        font-size:20px;
+    }
+    .faq-ques-ans .ans
+    {
+        font-size: 18px;
+        text-align: justify;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -418,7 +520,15 @@
         line-height: 40px;
         text-align:justify;
     }
+    .real-stories
+    {
+        padding:40px 0px;
+    }
     .real-mid 
+    {
+        padding: 0px 20px;
+    }
+    .faq-middle
     {
         padding: 0px 20px;
     }
